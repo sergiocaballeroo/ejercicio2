@@ -1,0 +1,45 @@
+h1 {
+    color: aqua;
+    background-color: beige;
+    
+
+}
+p {
+    
+    background-color: snow;
+    font-size: larger;
+    color: green;
+}
+/* Selectores de id se utiliza "#" */
+#noticia_1{
+    color:brown;
+    font-size: 12;
+}
+
+#noticia_2{
+    color: blueviolet;
+
+}
+
+/* Selectores de clase se utiliza "." */
+.encabezado{
+    font-size: 24pt;
+    text-decoration: dotted;
+    text-transform: uppercase;
+}
+/* Selector universal: Cambia la propiedad de alguna sección
+clase o id, que no tengan especificada dicha condición
+en este caso: encabezado cambia el color*/
+*{
+    color: red;
+}
+
+/* Para aplicarlo universalmente a un class o id, se selecciona dicho class o id. */
+*#warning {
+    color: indigo;
+}
+
+/* Es posible combinar class o id para darles estilos*/
+.encabezado, #noticia_2 {
+    text-decoration: underline;
+}
